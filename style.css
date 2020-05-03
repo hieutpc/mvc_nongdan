@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.content {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.additem {
+  width: 400px;
+  border: 1px solid #dddddd;
+  margin-top: 60px;
+  margin: 0px auto;
+}
+
+.additem h3 {
+  background: #009688;
+  padding: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.additem form table tr td {
+  padding: 5px;
+}
+
+.additem form table tr td input {
+  padding: 5px;
+}
+
+.list {
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.itemlist{
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.itemlist table {
+  width: 800px;
+  border: 1px solid #999999;
+}
+
+.itemlist h3{
+  background: #009688;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.edititem{
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.edititem table {
+  width: 800px;
+  border: 1px solid #999999;
+}
+
+.edititem h3{
+  background: #009688;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
