@@ -4,7 +4,7 @@
     <table>
         <tr>
             <td>
-                <image src="<?php $dataID[0]['image']?>" alt='image'>
+                <image src="<?= $dataID[0]['image']?>" alt='image' width='42' height='42'>
             </td>
             <td>
                 <input type='text' name='itemtitle' value="<?php echo $dataID[0]['description'] ?>">

@@ -15,15 +15,18 @@ if ($current_page > 1) {
 <?php }?>
 
 <?php for ($i = 1; $i <= $total_pages; $i++) {?>
-<?php if ($i != $current_page) {?>
+
+<!-- <?php if ($i != $current_page) {?>
 <?php if ($i > $current_page - 2 && $i < $current_page + 2) {?>
 <a href="index.php?controller=admin&action=show&per_page= <?=$item_per_page?> &page= <?=$i?>"><?=$i?></a>
 <?php } else {?>
 <strong> <?=$i?> </strong>
 <?php }?>
-<?php }?>
-<?php }?>
+<?php }?> -->
 
+<a href="index.php?controller=admin&action=show&per_page= <?=$item_per_page?> &page= <?=$i?>"><strong> <?=$i?> </strong></a>
+
+<?php }?>
 <?php
 if ($current_page < $total_pages - 1) {
     $next_page = $current_page + 1;

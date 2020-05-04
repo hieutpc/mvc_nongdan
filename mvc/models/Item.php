@@ -66,6 +66,7 @@ class Item
         $update_at = date("Y-m-d H:i:s");
         $sql = "INSERT INTO " . $this->tablename . " (title, description, image, status, create_at, update_at)
                 VALUES('$title', '$description', '$image', '$status', '$create_at', '$update_at')";
+        echo $sql;
         return $this->execute($sql);
     }
 

@@ -14,14 +14,14 @@
 ?>
 
         <tr>
-            <td> <?php echo $value['id'] ?> </td>
-            <td> <?php echo "<img src=" . $value['image'] . "alt='image'>"; ?> </td>
-            <td> <?php echo $value['title'] ?> </td>
-            <td> <?php echo $value['status'] ? 'Enabled' : 'Disabled' ?> </td>
+            <td> <?= $value['id'] ?> </td>
+            <td> <img src=" <?= $value['image'] ?> " width='42' height='42' alt='image'>; </td>
+            <td> <?= $value['title'] ?> </td>
+            <td> <?= $value['status'] ? 'Enabled' : 'Disabled' ?> </td>
             <td>
-                <a href="index.php?controller=admin&action=detail&id=<?php echo $value['id']; ?>"> Show </a>
-                <a href="index.php?controller=admin&action=edit&id=<?php echo $value['id']; ?>"> Edit </a>
-                <a href='index.php?controller=admin&action=delete&id=<?php echo $value['id']; ?>'> Delete </a>
+                <a href="index.php?controller=admin&action=detail&id=<?= $value['id']; ?>"> Show </a>
+                <a href="index.php?controller=admin&action=edit&id=<?= $value['id']; ?>"> Edit </a>
+                <a href='index.php?controller=admin&action=delete&id=<?= $value['id']; ?>'> Delete </a>
             </td>
         </tr>
         <?php

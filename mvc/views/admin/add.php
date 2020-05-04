@@ -13,7 +13,7 @@
         <div class='additem'>
             <a class='list' href='index.php?controller=admin&action=show'> Item list </a>
             <h3> Add a new item </h3>
-            <form action='' method='POST'>
+            <form action='' method='POST' enctype="multipart/form-data">
                 <table>
                     <tr>
                         <td> Image </td>
@@ -30,7 +30,6 @@
                                 <option value=1>Enabled</option>
                                 <option value=0>Disabled</option>
                             </select>
-                            <!-- <input type='text' name='itemstatus' placeholder="Status of item">  -->
                         </td>
                     </tr>
                     <tr>
@@ -45,6 +44,7 @@
             </form>
             <?php
 if ($success) {
+    echo $thumb;
     echo "<p style='color: green; text-align:center'> Insert successfully </p>";
 }
 ?>
