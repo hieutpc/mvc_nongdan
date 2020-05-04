@@ -1,3 +1,4 @@
+<!-- http://localhost/mvc_nongdan/index.php?controller=client&action=detail&id=12 -->
 <div class='itemdetail'>
     <a class='list' href='index.php?controller=client&action=show'> Back </a>
     <h3> <?php echo $dataID[0]['title']; ?> </h3>

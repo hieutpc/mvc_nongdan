@@ -1,5 +1,6 @@
+<!-- http://localhost/mvc_nongdan/index.php?controller=client&action=show -->
 <div class='itemlist'>
-    <h3 align="center"> Admin - Item list </h3>
+    <h3 align="center"> Client - Item list </h3>
     <table border='1px' align="center">
         <tr>
             <td> ID </td>
@@ -26,4 +27,9 @@ foreach ($itemPage as $value) {
 }
 ?>
     </table>
+    <div align='center'>
+
+        <?php require_once "./mvc/views/client/pagination.php";?>
+
+    </div>
 </div>

@@ -1,3 +1,4 @@
+<!-- http://localhost/mvc_nongdan/index.php?controller=admin&action=show -->
 <div class='itemlist'>
     <h3 align="center"> Admin - Item list </h3>
     <table border='1px' align="center">

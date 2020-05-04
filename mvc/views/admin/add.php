@@ -1,3 +1,4 @@
+<!-- http://localhost/mvc_nongdan/index.php?controller=admin&action=add -->
 <!DOCTYPE html>
 <html lang="en">
 

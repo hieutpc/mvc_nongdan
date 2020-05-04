@@ -1,3 +1,4 @@
+<!-- http://localhost/mvc_nongdan/index.php?controller=admin&action=edit&id=12 -->
 <div class='edititem'>
     <a class='list' href='index.php?controller=admin&action=show'> Item list </a>
     <h3> Edit </h3>
