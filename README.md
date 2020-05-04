@@ -1,12 +1,12 @@
 # __Introduction: Simple Website built in the format of MVC  and written using PHP__
 ---
-##__Prerequisites:__
+## __Prerequisites:__
 - Install at least 1 combo of environment packages such as: XAMPP, LAMPP. Here I used LAMP (Linux + Apache + Mysql + PHP)
 
 - Install phpmyadmin in order to control the DB via web browser
 
 
-##__1. Admin__:
+## __1. Admin__:
 - Add a new item: http://localhost/mvc_nongdan/index.php?controller=admin&action=add
 
 - Edit an item: http://localhost/mvc_nongdan/index.php?controller=admin&action=edit&id=12
